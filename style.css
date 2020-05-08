@@ -116,7 +116,7 @@
 
 .work-container:hover{
     /* opacity: 0.5; */
-    transition: 5s;
+    transition: 1s;
     -webkit-transform: scale(1);
     -ms-transform: scale(1);
     transform: scale(0.9);
@@ -163,7 +163,7 @@
     border-radius: 1rem;
 }
 .education-container:hover{
-    transition: 5s;
+    transition: 1s;
     -webkit-transform: scale(1);
     -ms-transform: scale(1);
     transform: scale(0.9);
