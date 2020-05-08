@@ -6,7 +6,8 @@
 
 
 .header{
-    background-image: url(image/header-pic.jpg);
+    /* background-image: url(image/header-pic.jpg); */
+    background-image: url(image/sample.gif);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -51,7 +52,7 @@
 }
 
 .developer-info{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
     color: lightcyan;
 }
 
@@ -75,8 +76,10 @@
     margin-bottom: 1rem;
     font-family: 'Roboto Condensed', sans-serif;
     /* text-align: center; */
-    margin-left: 1rem;
-    margin-right: 1rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    line-height: 1.5;
+    
 }
     
 
@@ -92,6 +95,7 @@
     flex-wrap: wrap;
     background-color: #1A1A1D;
     overflow: hidden;
+    
 }
 
 .all-container h2{
@@ -203,9 +207,10 @@
     min-height: 18rem;
     width: 100%;
     background-color: #1A1A1D;
+    
     padding-top: 0.5rem;
     overflow: hidden;
-    margin-bottom: 1rem;
+    margin-bottom: 0.1rem;
     margin-top: 1rem;
     
 }
