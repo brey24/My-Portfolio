@@ -6,8 +6,8 @@
 
 
 .header{
-    /* background-image: url(image/header-pic.jpg); */
-    background-image: url(image/sample.gif);
+    background-image: url(image/header-pic.jpg);
+/*     background-image: url(image/sample.gif); */
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -76,8 +76,8 @@
     margin-bottom: 1rem;
     font-family: 'Roboto Condensed', sans-serif;
     /* text-align: center; */
-    margin-left: 5rem;
-    margin-right: 5rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
     line-height: 1.5;
     
 }
