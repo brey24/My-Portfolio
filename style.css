@@ -19,6 +19,7 @@
 
 .header-text{
     padding-top: 15rem;
+    
 }
 
 .header-text h1{
@@ -29,10 +30,11 @@
 
 .header-text p{
     color: white;
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-family: 'Roboto Condensed', sans-serif;
-  
 }
+
+
 
 /* DEVELOPER-CONTAINER */
 .container{
@@ -70,28 +72,56 @@
 .developer-info p{
     margin-bottom: 1rem;
     font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
     
+
+
+
+
+
+/* ------WORK and EDUC EXP----- */
+
+.all-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #1A1A1D;
+}
+
+.all-container h2{
+    text-align: center;
+    padding-bottom: 0.5rem;
 }
 
 
-/* EDUCATION */
-
-
-
-/* ------WORK EXP----- */
-
 .work-container{
+    /* justify-content: flex-start; */
     min-height: 20rem;
-    background-color: #1A1A1D;
+    background-color: #1F2833;
     color: white;
     padding-top: 1rem;
     text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 1rem;
 }
 
+.work-container:hover{
+    /* opacity: 0.5; */
+    transition: 5s;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(0.9);
+}
 .work-container h2{
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-    /* line-height: 0.5; */
+    line-height: 0.5;
 }
 
 .work-container h3{
@@ -102,10 +132,60 @@
 .work-container img{
     height: 20rem;
     padding-bottom: 1rem;
-    
 }
 
+
 .work-info{
+    padding-bottom: 1rem;
+}
+
+.work-info img{
+    height: 20rem;
+    padding-bottom: 1rem;
+}
+/* -----EDUC---- */
+
+.education-container{
+    min-height: 20rem;
+    background-color: #1F2833;
+    color: white;
+    padding-top: 1rem;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 1rem;
+}
+.education-container:hover{
+    transition: 5s;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(0.9);
+}
+
+.education-container h2{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 0.5;
+}
+
+.education-container h3{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 200;
+}
+
+.education-container img{
+    height: 20rem;
+    padding-bottom: 1rem;
+}
+
+.educ-info{
+    padding-bottom: 1rem;
+}
+
+.educ-info img{
+    height: 20rem;
     padding-bottom: 1rem;
 }
 
@@ -357,7 +437,7 @@
     }
     .header-text h1{
         color: white;
-        font-size: 3rem;
+        font-size: 1.5rem;
         font-family: 'Merriweather', serif;
     }
 
@@ -376,13 +456,31 @@
     }
 
     .work-info h2{
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
 
     .work-info h3{
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
     .work-info img{
+        height: 18rem;
+    }
+
+    /* EDUC */
+
+    .educ-info{
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .educ-info h2{
+        font-size: 1rem;
+    }
+
+    .educ-info h3{
+        font-size: 0.8rem;
+    }
+    .educ-info img{
         height: 18rem;
     }
 
@@ -391,13 +489,14 @@
     
     /* About Me */
     .developer-info{
-        margin-left: 0.3rem;
-        margin-right: 0.3rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
     
     }
 
     .developer-info p{
         font-size: 1rem;
+       
     }
 
     .middle-container h2{
