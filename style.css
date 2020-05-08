@@ -3,6 +3,8 @@
     padding: 0;
 }
 
+
+
 .header{
     background-image: url(image/header-pic.jpg);
     background-position: center;
@@ -72,9 +74,9 @@
 .developer-info p{
     margin-bottom: 1rem;
     font-family: 'Roboto Condensed', sans-serif;
-    text-align: center;
-    margin-left: 5rem;
-    margin-right: 5rem;
+    /* text-align: center; */
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
     
 
@@ -164,8 +166,8 @@
 }
 .education-container:hover{
     transition: 1s;
-    -webkit-transform: scale(1);
-    -ms-transform: scale(1);
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
     transform: scale(0.9);
 }
 
