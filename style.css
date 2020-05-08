@@ -89,6 +89,7 @@
     justify-content: space-around;
     flex-wrap: wrap;
     background-color: #1A1A1D;
+    overflow: hidden;
 }
 
 .all-container h2{
@@ -99,7 +100,7 @@
 
 .work-container{
     /* justify-content: flex-start; */
-    min-height: 20rem;
+    min-height: 15rem;
     background-color: #1F2833;
     color: white;
     padding-top: 1rem;
@@ -108,6 +109,8 @@
     margin-bottom: 1rem;
     padding-left: 1rem;
     padding-right: 1rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
     border-radius: 1rem;
 }
 
@@ -146,13 +149,15 @@
 /* -----EDUC---- */
 
 .education-container{
-    min-height: 20rem;
+    min-height: 15rem;
     background-color: #1F2833;
     color: white;
     padding-top: 1rem;
     text-align: center;
     margin-top: 1rem;
     margin-bottom: 1rem;
+    margin-right: 5rem;
+    margin-left: 5rem;
     padding-left: 1rem;
     padding-right: 1rem;
     border-radius: 1rem;
@@ -437,13 +442,13 @@
     }
     .header-text h1{
         color: white;
-        font-size: 1.5rem;
+        font-size: 3.5rem;
         font-family: 'Merriweather', serif;
     }
 
     .header-text p{
         color: white;
-        font-size: 1.5rem;
+        font-size: 2rem;
         font-family: 'Roboto Condensed', sans-serif;
     }
 
