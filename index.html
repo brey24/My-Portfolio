@@ -6,6 +6,7 @@
     <title>My Portfolio</title>
     <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Roboto+Condensed&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/aa69ec845d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -18,7 +19,7 @@
         </div>
     </header>
     
-    <div class="container">
+    <div class="container" data-aos="fade-left">
         <div class="developer-info">
             <img src="image/pic1.png" alt="developer-img">
             <h1>About Me</h1>
@@ -29,7 +30,7 @@
 
  <div class="all-container">
 
-        <div class="work-container">
+        <div class="work-container" data-aos="fade-right">
             <h2>Work Experience</h2>
             <div class="work-info">
                 <img src="image/cc.png" alt="work-img">
@@ -43,7 +44,7 @@
         </div>
 
 
-            <div class="education-container">
+            <div class="education-container" data-aos="fade-left">
                 <h2>Education</h2>
                 <div class="educ-info">
                     <img src="image/education.png" alt="educ-img">
@@ -61,7 +62,7 @@
         
     
         
-    <div class="middle-container">
+    <div class="middle-container" data-aos="fade-right">
         <h2>My Skils</h2>
         <div class="skill-container">
             <div class="html">
@@ -95,7 +96,7 @@
         
 
     
-    <div class="contact-container">
+    <div class="contact-container" data-aos="fade-left">
 
         <div class="mid-container">
     
@@ -147,5 +148,13 @@
          </div>
 
     </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+          offset: 400,
+          duration: 1000
+      });
+    </script>    
 </body>
 </html>
