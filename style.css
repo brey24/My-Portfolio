@@ -3,9 +3,9 @@
     padding: 0;
 }
 
-/* html{
+html{
     scroll-behavior: smooth;
-} */
+}
 
 body{
     background-color: #1A1A1D;
@@ -438,6 +438,20 @@ body{
     color: white;
     text-align: center;
     font-family: 'Roboto Condensed', sans-serif;
+}
+
+.back-to-top{
+    display: block;
+    text-align: center;
+    font-family: 'Roboto Condensed';
+    font-size: 0.9rem;
+    color: #205373;
+    text-decoration: none;
+    margin-top: 1rem;
+}
+
+.back-to-top:hover{
+	color: #ffffff;
 }
 
 
