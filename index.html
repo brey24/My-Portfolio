@@ -4,14 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Roboto+Condensed&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/aa69ec845d.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+   
+    
     <header id="heads">
-        
+        <nav>
+            <input type="checkbox" id="checkBtn">
+            <label for="checkBtn">
+                <i class="fa fa-bars"></i>
+            </label>
+            <!-- <a href="#" class="logo"></a> -->
+            <ul>
+                <li><a href="#heads">Home</a></li>
+                <li><a href="#developer">About</a></li>
+                <li><a href="#work-educ">Work and Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+                
+            </ul>
+        </nav>
+
         <div class="header">
             <div class="header-text">
                 <h1>I'm Bryan.</h1>
@@ -20,131 +39,135 @@
         </div>
         
     </header>
-    
-    <div class="container" data-aos="fade-up">
-        <div class="developer-info">
-            <img src="image/pic1.png" alt="developer-img">
-            <h1>About Me</h1>
-            <p>I'm a front end developer and soon to be a full stack web developer.  Currently self-studying web development and i love to design. After i graduated, i decided to apply in a bpo company bacause i am desperate to help my family. That's why i wasn't able to practice my knowledge in programming. Then after i resigned in a bpo company, i started to work in personal business of my neighbour as a Graphic Artist/Photo Editor but that's not enough becase i'm a project based only. After my contract, i decided to pursue my Web Development career. Reading and watching about Web Development while studying the fundamentals. And now here i am still studying because programming is a continuous learning. </p>
-        </div>
-    </div>
 
 
- <div class="all-container">
-
-        <div class="work-container" data-aos="zoom-in-right">
-            <h2>Work Experience</h2>
-            <div class="work-info">
-                <img src="image/cc.png" alt="work-img">
-
-                <h2>Sterling Global Call Center</h2>
-                <h3>Customer Service Representative</h3>
-                <!-- <h3>002 Sterling Industrial Park, Brgy. Patubig,
-                    Marilao, Bulacan</h3> -->
-            
+    <div id="developer">
+        <div class="container" data-aos="fade-up">
+            <div class="developer-info">
+                <img src="image/pic1.png" alt="developer-img">
+                <h1>About Me</h1>
+                <div class="parag">
+                    <p>Hi, I'm Bryan. Aspiring Front End Developer and soon to be a full stack web developer.  Currently self-studying web development and I love to design. After I graduated I decided to apply in a bpo company bacause I am desperate to help my family. That's why i wasn't able to practice my knowledge in programming. Then after I resigned in a bpo company, I started to work in personal business of my neighbour as a Graphic Artist/Photo Editor but that's not enough becase I'm a project based only. After my contract, I decided to pursue my Web Development career. Reading and watching about Web Development while studying the fundamentals. And now here I am still studying because programming is a continuous learning. </p>
+                </div>   
             </div>
         </div>
-
-
-            <div class="education-container" data-aos="zoom-in-left">
-                <h2>Education</h2>
-                <div class="educ-info">
-                    <img src="image/education.png" alt="educ-img">
     
-                    <h2>Asian Institute of Computer Studies</h2>
-                    <h3>Bachelor of Science in Computer Science</h3>
-                    <h3>2014-2018</h3>
-                
+
+    <div id="work-educ">
+        <div class="all-container">
+
+                <div class="work-container" data-aos="zoom-in-right">
+                    <h2>Work Experience</h2>
+                    <div class="work-info">
+                        <img src="image/cc.png" alt="work-img">
+
+                        <h2>Sterling Global Call Center</h2>
+                        <h3>Customer Service Representative</h3>
+                        <!-- <h3>002 Sterling Industrial Park, Brgy. Patubig,
+                            Marilao, Bulacan</h3> -->
+                    
+                    </div>
                 </div>
-            </div>
-      
- </div>
 
 
-        
-    
-        
-    <div class="middle-container" data-aos="fade-up">
-        <h2>My Skils</h2>
-        <div class="skill-container" data-aos="fade-up">
-            <div class="html">
-                <img class="html-img" src="image/html.png" alt="html-img" >
-                <h3>HTML5</h3>
-                <p>⭐⭐⭐⭐⭐</p>
-            </div>
-
-            <div class="css">
-                <img class="css-img" src="image/css.png" alt="css3-img">
-                <h3>CSS3</h3>
-                <p>⭐⭐⭐⭐</p>
-            </div>
+                    <div class="education-container" data-aos="zoom-in-left">
+                        <h2>Education</h2>
+                        <div class="educ-info">
+                            <img src="image/education.png" alt="educ-img">
             
-            <div class="vs-code">
-                <img class="bootstrap-img" src="image/bootstrap.png" alt="bootstrap-img" >
-                <h3>Bootstrap</h3>
-                <p>⭐⭐⭐</p>
-            </div>
-
-            <div class="vegaspro">
-                <img class="edit-img" src="image/vegas-pro.png" alt="vegas-img" >
-                <h3>Sony Vegas Pro</h3>
-                <p>⭐⭐⭐⭐⭐</p>
-            </div>
+                            <h2>Asian Institute of Computer Studies</h2>
+                            <h3>Bachelor of Science in Computer Science</h3>
+                            <h3>2014-2018</h3>
+                        
+                        </div>
+                    </div>
             
         </div>
     </div>
 
 
-
-<div class="for-animation" data-aos="fade-up">
-    
-    <div class="contact-container" >
-
-        <div class="mid-container">
-    
-            <div class="contact-image">
-                <h2>Get in touch</h2>
-                <img src="image/contact1.png" alt="contact-img">
-            </div>
-
-            <div class="contact-details">
-                <p>Do you have any question? Don't hesitate to contact me.</p>
-                <a href="mailto:bryanyan240@gmail.com"><button>Email Me</button></a>
-            </div>
-
-            <div class="address">
-                <i class="fas fa-map-marker-alt"></i>
-                <p>Marilao, Bulacan.</p>
-            </div>
-
-            <div class="phone-number">
-                <i class="fas fa-phone"></i>
-                <p>+639504912182</p>
-            </div>
-
-          
-           
-
-            
-
-         </div>
-            
         
-    </div>
+  
     
+    <div id="skills">
+        <div class="middle-container" data-aos="fade-up">
+            <h2>My Skills</h2>
+            <div class="skill-container" data-aos="fade-up">
+                <div class="html">
+                    <img class="html-img" src="image/html.png" alt="html-img" >
+                    <h3>HTML5</h3>
+                    <p>⭐⭐⭐⭐⭐</p>
+                </div>
 
-    <footer class="foot" >
-        <p>© 2020 Brey</p>
-        <div class="icon">
-            <a href="https://www.facebook.com/braybreybriy"><i class="fab fa-facebook-square"></i></a> 
-            <a href="https://www.instagram.com"><i class="fab fa-instagram-square"></i></a>
-            <a href="https://www.linkedin.com/in/bryan-ogena-91a1021a1/"><i class="fab fa-linkedin"></i></a>
-            <a href="https://github.com/brey24"><i class="fab fa-github-square"></i></a>
-         </div>
-         <a href="#heads" class="back-to-top">Back to top</a>
-    </footer>
-</div>
+                <div class="css">
+                    <img class="css-img" src="image/css.png" alt="css3-img">
+                    <h3>CSS3</h3>
+                    <p>⭐⭐⭐⭐</p>
+                </div>
+                
+                <div class="vs-code">
+                    <img class="bootstrap-img" src="image/bootstrap.png" alt="bootstrap-img" >
+                    <h3>Bootstrap</h3>
+                    <p>⭐⭐⭐</p>
+                </div>
 
+                <div class="vegaspro">
+                    <img class="edit-img" src="image/vegas-pro.png" alt="vegas-img" >
+                    <h3>Sony Vegas Pro</h3>
+                    <p>⭐⭐⭐⭐⭐</p>
+                </div>
+                
+            </div>
+        </div>
+    </div>    
+
+
+    <div id="contact">
+        <div class="for-animation" data-aos="fade-up">
+            
+            <div class="contact-container" >
+
+                <div class="mid-container">
+            
+                    <div class="contact-image">
+                        <h2 class="get-in-touch">Get in touch</h2>
+                        <img src="image/header.gif" alt="contact-img">
+                    </div>
+
+                    <div class="contact-details">
+                        <p>Do you have any question? Don't hesitate to contact me.</p>
+                        <a href="mailto:bryanyan240@gmail.com"><button>Email Me</button></a>
+                    </div>
+
+                    <div class="address">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>Marilao, Bulacan.</p>
+                    </div>
+
+                    <div class="phone-number">
+                        <i class="fas fa-phone"></i>
+                        <p>+639504912182</p>
+                    </div>
+                    
+
+                </div>
+                    
+                
+            </div>
+            
+
+            <footer class="foot" >
+                <p>© 2020 Brey</p>
+                <div class="icon">
+                    <a href="https://www.facebook.com/braybreybriy"><i class="fab fa-facebook-square"></i></a> 
+                    <a href="https://www.instagram.com"><i class="fab fa-instagram-square"></i></a>
+                    <a href="https://www.linkedin.com/in/bryan-ogena-91a1021a1/"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/brey24"><i class="fab fa-github-square"></i></a>
+                </div>
+                <a href="#heads" class="back-to-top">Back to top</a>
+            </footer>
+        </div>
+    </div>
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
