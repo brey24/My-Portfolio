@@ -14,7 +14,7 @@ body{
 
 
 .header{
-    background-image: url(image/header-pic.jpg);
+    background-image: url(image/head1.gif);
     /* background-image: url(image/sample.gif); */
     background-position: center;
     background-size: cover;
@@ -158,10 +158,11 @@ nav input[type="checkbox"]{
     font-size: 2rem;
   
 }
-
-/* .developer-info img{
-    margin-top: 3rem;
-} */
+.developer-info img{
+    height: 10rem;
+    width: auto;
+    border-radius: 50%;
+}
 
 .developer-info img:hover{
     transition: 1s;
@@ -380,7 +381,7 @@ nav input[type="checkbox"]{
 
 .html-img{
     height: 8rem;
-    width: 10.5rem;
+    /* width: rem; */
 }
 
 .css-img{
@@ -388,7 +389,7 @@ nav input[type="checkbox"]{
 }
 
 .edit-img{
-    height: 8rem;
+    height: auto;
     width: 8rem;
 }
 
@@ -440,7 +441,7 @@ nav input[type="checkbox"]{
 
 .contact-image img{
     text-align: center;
-    height: 20rem;
+    height: auto;
     width: 100%;
     
 }
