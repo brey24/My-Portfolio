@@ -396,7 +396,9 @@ nav input[type="checkbox"]{
 }
 
 .js-img{
-    height: 8rem;
+    max-height: 8rem;
+    width: auto;
+   
 }
 
 .bootstrap-img{
@@ -731,9 +733,14 @@ nav input[type="checkbox"]{
         padding-bottom: 1rem;
         flex: 0 0 50%;
         max-width: 50%;
-    
+        
         
     }
+
+    
+
+
+  
     .skill-container h3{
         padding-top: 0.5rem;
         padding-bottom: 1rem;
