@@ -88,23 +88,24 @@ nav ul li a{
 
 
 
-nav li:hover{
+nav li:hover {
     /* background-color: lightcyan; */
     border-radius: 1rem;
     transition: 0.5s ease-in-out;
     transform: scale(0.9);
     /* transition: 0.5s; */
     
-    
-
 }
 
-nav a:hover{
+
+
+nav li a:hover{
     
     background-color: lightcyan ;
     border-radius: 1rem;
     color: black;
 }
+
 
 /* nav li:hover{
     transition: 0.5s;
@@ -382,6 +383,7 @@ nav input[type="checkbox"]{
 .html-img{
     height: 8rem;
     /* width: rem; */
+    
 }
 
 .css-img{
@@ -391,6 +393,10 @@ nav input[type="checkbox"]{
 .edit-img{
     height: auto;
     width: 8rem;
+}
+
+.js-img{
+    height: 8rem;
 }
 
 .bootstrap-img{
@@ -633,7 +639,7 @@ nav input[type="checkbox"]{
     }
     .header-text h1{
         color: white;
-        font-size: 4.5rem;
+        font-size: 4rem;
         font-family: 'Montserrat', sans-serif;
     }
 
@@ -646,6 +652,8 @@ nav input[type="checkbox"]{
 
 
     /* WORK EXPERIENCE */
+
+    
 
     .work-info{
         margin-left: 1rem;
@@ -666,6 +674,7 @@ nav input[type="checkbox"]{
     /* EDUC */
 
     .educ-info{
+        
         margin-left: 1rem;
         margin-right: 1rem;
     }
