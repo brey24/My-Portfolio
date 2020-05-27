@@ -1,3 +1,5 @@
+@import "../node_modules/picnic/picnic.min.css";
+
 *{
     margin: 0;
     padding: 0;
@@ -737,6 +739,13 @@ nav input[type="checkbox"]{
     }
 
     .parag{
+        text-align: center;
+        font-size: 1rem;
+       margin-left: auto;
+       margin-right: auto;
+    }
+
+    .skilldetails{
         text-align: center;
         font-size: 1rem;
        margin-left: auto;
