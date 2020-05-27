@@ -60,6 +60,12 @@ nav{
     
 }
 
+nav img{
+    height: 3.1rem;
+    width: 3.3rem;
+    background-color: rgba(169, 169, 169, 0.411);
+}
+
 nav ul{
     float: right;
     margin-right: 40px;
@@ -182,6 +188,38 @@ nav input[type="checkbox"]{
    min-width: 50%;
     
 }
+
+/* --CERTIFICATE-- */
+
+/* .certificate{
+    margin-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+
+.cert-container{
+    display: flex;
+    
+    
+}
+
+.cert{
+    text-align: center;
+}
+
+.certificate h1{
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 1rem;
+}
+
+.cert-img img{
+    height: 20rem;
+    width: auto;
+    box-shadow: 5px 10px 8px  #888888;
+} */
     
 
 
@@ -795,7 +833,14 @@ nav input[type="checkbox"]{
 }
 
 
-
+.certificate{
+    margin-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
 
    
 
